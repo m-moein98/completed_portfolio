@@ -21,14 +21,15 @@ from django.conf.urls.static import static
 urlpatterns = [
     #  admin
     path('admin/', admin.site.urls),
-    # portfolio
-    # path('', TemplateView.as_view(template_name='home.html')),
-    path('api/portfolio/', include('portfolio.urls')),
+
     # blog
     path('api-auth/', include('rest_framework.urls')),
     path('summernote/', include('django_summernote.urls')),
     path('api/blog/', include('blog.urls')),
     re_path(r'^blog.*', TemplateView.as_view(template_name='blog.html')),
+
+    # portfolio
+    path('api/portfolio/', include('portfolio.urls')),
     re_path(r'^.*', TemplateView.as_view(template_name='home.html')),
 
 
