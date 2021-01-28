@@ -143,6 +143,9 @@ REST_FRAMEWORK = {
     # 'DEFAULT_PERMISSION_CLASSES': [
     #     'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
     # ]
+        'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    )
 }
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 SUMMERNOTE_THEME = 'bs4'
