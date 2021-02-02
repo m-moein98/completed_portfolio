@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.85fc563a.chunk.css",
-    "main.js": "/static/js/main.204890fd.chunk.js",
-    "main.js.map": "/static/js/main.204890fd.chunk.js.map",
+    "main.css": "/static/css/main.adb72598.chunk.css",
+    "main.js": "/static/js/main.f40535b1.chunk.js",
+    "main.js.map": "/static/js/main.f40535b1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2fd7dc15.js",
     "runtime-main.js.map": "/static/js/runtime-main.2fd7dc15.js.map",
     "static/js/2.223ac517.chunk.js": "/static/js/2.223ac517.chunk.js",
     "static/js/2.223ac517.chunk.js.map": "/static/js/2.223ac517.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.85fc563a.chunk.css.map": "/static/css/main.85fc563a.chunk.css.map",
+    "static/css/main.adb72598.chunk.css.map": "/static/css/main.adb72598.chunk.css.map",
     "static/js/2.223ac517.chunk.js.LICENSE.txt": "/static/js/2.223ac517.chunk.js.LICENSE.txt",
-    "static/media/easybank-landing-page.12881833.png": "/static/media/easybank-landing-page.12881833.png",
-    "static/media/fylo-landing-page.ea43cdd6.png": "/static/media/fylo-landing-page.ea43cdd6.png",
-    "static/media/huddle-curved-sections.79b38d57.png": "/static/media/huddle-curved-sections.79b38d57.png",
+    "static/media/blog.ee8d6056.png": "/static/media/blog.ee8d6056.png",
     "static/media/huddle-landing-page.7d1a5e46.png": "/static/media/huddle-landing-page.7d1a5e46.png",
     "static/media/insure-landing-page.e4cc298e.png": "/static/media/insure-landing-page.e4cc298e.png",
     "static/media/intro-component.d6efb27f.png": "/static/media/intro-component.d6efb27f.png",
-    "static/media/index.css": "/static/media/showcase.6c81cd93.jpg"
+    "static/media/portfolio.61005fcc.png": "/static/media/portfolio.61005fcc.png",
+    "static/media/index.css": "/static/media/showcase.6c81cd93.jpg",
+    "static/media/url_shortener.3ef47c01.png": "/static/media/url_shortener.3ef47c01.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2fd7dc15.js",
     "static/js/2.223ac517.chunk.js",
-    "static/css/main.85fc563a.chunk.css",
-    "static/js/main.204890fd.chunk.js"
+    "static/css/main.adb72598.chunk.css",
+    "static/js/main.f40535b1.chunk.js"
   ]
 }
