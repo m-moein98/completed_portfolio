@@ -27,10 +27,16 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
     path('api/blog/', include('blog.urls')),
     re_path(r'^blog.*', TemplateView.as_view(template_name='blog.html')),
+    
+    # url shortener
+    re_path(r'^url-shortener.*', TemplateView.as_view(template_name='url.html')),
+
 
     # portfolio
     path('api/portfolio/', include('portfolio.urls')),
     re_path(r'^.*', TemplateView.as_view(template_name='home.html')),
+
+
 
 
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
